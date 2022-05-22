@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,19 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Nunito:wght@200&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/logo.png" >
+
+
 </head>
 <body>
-
 
     <header class="cabecera">
         <nav class="contenedor-menu">
 
             <ul class="menu">
-                <li class="item"><a href="" class="menu-link">Inicio</a></li>
-                <li class="item"><a href="" class="menu-link">Nosotros</a></li>
-                <li class="item"><a href="" class="menu-link">Blog</a></li>
-                <li class="item"><a href="" class="menu-link">Informacion</a></li>
-                <li class="item"><a href="" class="menu-link">Contacto</a></li>
+                <li class="item" id="btn" ><a href="" class="menu-link" onmouseover = "setColor(this)" onmouseout = "setColorBack(this)" onmousedown= "apretar(this)">Inicio</a></li>
+                <li class="item"id="btn"><a href="" class="menu-link"onmouseover = "setColor(this)" onmouseout = "setColorBack(this)" onmousedown= "apretar(this)">Nosotros</a></li>
+                <li class="item" id="btn"><a href="" class="menu-link"onmouseover = "setColor(this)" onmouseout = "setColorBack(this)" onmousedown= "apretar(this)">Blog</a></li>
+                <li class="item" id="btn"><a href="" class="menu-link"onmouseover = "setColor(this)" onmouseout = "setColorBack(this)" onmousedown= "apretar(this)">Informacion</a></li>
+                <li class="item" id="btn"><a href="" class="menu-link"onmouseover = "setColor(this)" onmouseout = "setColorBack(this)" onmousedown= "apretar(this)">Contacto</a></li>
             </ul>
   
         </nav>
@@ -140,6 +142,8 @@
 
         </section>
     </main>
+
+    <script src="js/changeColor.js"></script>
 
 </body>
 </html>

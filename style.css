@@ -15,7 +15,7 @@ a{
 
 .btn{
     display: inline-block;
-    border:solid 1px #fff;
+    border:solid 5px #fff;
     padding: 5px;
     transition: all ease .6s;
     border-radius: 10px;
@@ -73,37 +73,6 @@ a{
 }
 
 
-
-
-@media screen and (min-width: 720px) {
-
-    .menu{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .menu:nth-child(1){
-        flex-grow: 1;
-    }
-    .menu:nth-child(2){
-        flex-grow: 2;
-        justify-content: center;
-    }
-    .menu:nth-child(3){
-        flex-grow: 1;
-        justify-content: center;
-    }
-    .menu:nth-child(3) .item{
-        margin-left: 10px;
-
-    }
-    .menu:nth-child(2) .item{
-        flex: 0 1 calc(20% - 1rem);
-    }
-    .logo-text{
-        font-size: 50px;
-    }
-}
-
 .contenedor{
     background: rgba(231, 229, 229, 0.452);
     display: flex;
@@ -139,20 +108,6 @@ a{
 
 
 
-@media screen and (min-width: 720px) {
-    .contenedor{
-        height: 78.5vh;
-    }
-
-    .banner{
-        background: url(img/hombre.jpg);
-    }
-
-    .banner-title{
-        font-size: 50px;
-    }
-
-}
 
 
 .content{
@@ -199,25 +154,6 @@ a{
     text-align: center;
     margin-top: 10px;
 }
-
-@media screen and (min-width: 720px) {
-
-  .info-page{
-      flex-direction: row;
-      width: 90vw;
-      margin: 10px;
-  }
-  .info-item:first-child{
-     flex:1 0 60%;
-    
-  }
-  .info-item:last-child{
-      margin-top: 15px;
-      margin-left: 15px;
-  }
-
-}
-
 
 .experience{
     display: flex;
@@ -297,36 +233,6 @@ a{
     padding: 10px;
 }
 
-@media screen and (min-width: 720px) {
-
-    .experience-description{
-        flex-direction: row;
-        height: 60%;
-    }
-
-    .experience-content{
-        padding-left: 4%;
-        flex: 2 0 60%;
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .box-button{
-        flex: 1 0 40%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .btn-exp{
-        width: 200px;
-    }
-
-}
-
 
 .popular-places{
     display: flex;
@@ -360,6 +266,7 @@ a{
 
 
 @media screen and (min-width: 420px) {
+    
     .banner{
       background: url(img/hombre.jpg);
     }
@@ -423,6 +330,86 @@ a{
     .card-place:nth-child(4){
         grid-column: 5/6;
     }
+    .menu{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .menu:nth-child(1){
+        flex-grow: 1;
+    }
+    .menu:nth-child(2){
+        flex-grow: 2;
+        justify-content: center;
+    }
+    .menu:nth-child(3){
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .menu:nth-child(3) .item{
+        margin-left: 10px;
+
+    }
+    .menu:nth-child(2) .item{
+        flex: 0 1 calc(20% - 1rem);
+    }
+    .logo-text{
+        font-size: 50px;
+    }
+        .contenedor{
+        height: 78.5vh;
+    }
+
+    .banner{
+        background: url(img/hombre.jpg);
+    }
+
+    .banner-title{
+        font-size: 50px;
+    }
+
+    .info-page{
+          flex-direction: row;
+          width: 90vw;
+          margin: 10px;
+      }
+
+    .info-item:first-child{
+         flex:1 0 60%;
+        
+      }
+
+    .info-item:last-child{
+          margin-top: 15px;
+          margin-left: 15px;
+      }
+
+    .experience-description{
+        flex-direction: row;
+        height: 60%;
+    }
+
+    .experience-content{
+        padding-left: 4%;
+        flex: 2 0 60%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-button{
+        flex: 1 0 40%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .btn-exp{
+        width: 200px;
+    }
+
+
 }
 
 
